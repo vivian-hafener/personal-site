@@ -1,7 +1,7 @@
 /* =========== Nav bar =========== */
 * {
     box-sizing: border-box;
-    /*background-color: #001524; */
+    background-color: #05080F; 
 } /* I need to change this if I want to be able to set individual background colors for elements */
 
 [class*="col-"] {
@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #001524;
+    background-color: #030408;
     margin: 0;
     padding: 0;
 }
@@ -33,15 +33,71 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #15616D;
+    background-color: #A62929;
+    height: 3.5em;
+    text-align: center;
 }
 .nav-li {
     float: left;
-    background-color: #15616D;
+    background-color: #A62929;
+    height: 3.5em;
 }
 
 .row::after {
     content: "";
     clear:both;
     display: table;
+}
+
+.nav-li .nav-a { 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #A62929;
+    height: 3.5em;
+}
+.nav-li .nav-a:hover:not(.active) {
+    background-color: #932525;
+    height: 3.5em;
+}
+
+.active {
+    background-color: #FFFFFF;
+}
+nav ul h3 {
+    color: #FFFFFF;
+    padding: 0;
+    margin: 7.75px;
+    font-size: 1.7em;
+    background-color: #A62929;
+}
+h3 {
+    text-align: center;
+    color: #C68787;
+    margin: 0.7em;
+}
+
+h4 {
+    background: none;
+    margin: 0em;
+    padding: 0em;
+    font-size: 1.3em;
+    color: #EBD6D6;
+}
+
+h1 {
+    color: #B65858;
+    text-align: center;
+    font-weight:lighter;
+    font-size: 2.5em;
+    margin: 0.2em;
+}
+p {
+    color: #EBD6D6;
+}
+
+p, h1, h2, h3, h4, h5 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
