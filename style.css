@@ -1,7 +1,7 @@
 /* =========== Nav bar =========== */
 * {
     box-sizing: border-box;
-    background-color: #05080F; 
+    background-color: #3e3e42; 
 } /* I need to change this if I want to be able to set individual background colors for elements */
 
 /* I'm going to need to make this background color lighter for consistent viewing on non-hdr screens */
@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #030408;
+    background-color: #3e3e42;
     margin: 0;
     padding: 0;
 }
