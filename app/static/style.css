@@ -30,15 +30,6 @@ body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.nav-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #A62929;
-    height: 3.5em;
-    text-align: center;
-}
 .nav-li {
     float: left;
     background-color: #A62929;
@@ -67,13 +58,6 @@ body {
 
 .active {
     background-color: #FFFFFF;
-}
-nav ul h3 {
-    color: #FFFFFF;
-    padding: 0;
-    margin: 7.75px;
-    font-size: 1.7em;
-    background-color: #A62929;
 }
 h3 {
     text-align: center;
@@ -139,3 +123,9 @@ p, h1, h2, h3, h4, h5 {
     align-items: center;
     justify-content: center;
 }
+
+.project_grid {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
