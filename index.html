@@ -12,7 +12,6 @@
 
     
 
-    <!-- Bootstrap core CSS -->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
 
@@ -38,6 +37,12 @@
         <a href="#home" class="nav-link active" aria-current="page">
           <img class="bi me-2" width="16" height="16" src="assets/svg/home.svg" style="filter: invert(100%);"/>
           Home
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#about" class="nav-link text-white" aria-current="page">
+          <img class="bi me-2" width="16" height="16" src="assets/svg/home.svg" style="filter: invert(100%);"/>
+          About
         </a>
       </li>
       <li>
@@ -73,7 +78,7 @@
 
 <div id="home"class= "main-div"style="margin-left: 280px; margin-right: 0px; background: url(assets/media/katahdin.jpg); background-size: 100%; background-repeat: no-repeat; background-attachment: fixed; background-position: center top; color: #fff;" >
 
-<div class="container" >
+<div class="container">
    <div class="starter-template align-middle center">
      <!-- ! ACTUALLY CENTER THIS -->
     <h1 style="font-size: 5em; color: rgba(0, 0, 0, .85); font-weight: 100; kerning: 1em; text-align: center; margin: auto;">Vivian Hafener</h1>
@@ -89,7 +94,17 @@
 
 
 </div><!-- /.container --><div class="container">
+  
 <main style="margin-left: 280px; margin-right: 0px; ">
+
+  <hr class="featurette-divider">
+
+
+  <div id="about">
+    <div class="text-centered" style="text-align: center;">
+      <p class="lead">About me</p>
+    </div>
+  </div>
   <div id="projects">
     <hr class="featurette-divider">
     <div class="row featurette">
@@ -107,6 +122,7 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
+        <!-- !FIX THE PADDING HERE, IT's A LITTLE TOO MUCH -->
         <h2 class="featurette-heading">Journal Web Application <span class="text-muted">Using Flask and SQLite</span></h2>
         <p class="lead">Wrote a fully-featured journal web application that allowed users to create, delete, and view journal entries on the web.</p>
       </div>
