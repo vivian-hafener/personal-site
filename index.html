@@ -23,18 +23,23 @@
   </symbol>
 </svg>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
 </head>
-<nav style="width: 280px;">
+
+<body   data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+<nav style="width: 280px;" id="navbar">
   <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px; height: 100%;">
     <img width="248px" height="248px" src="assets/media/vivi.png" style="border-radius: 50%;">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-      <!-- This should probably have a slightly heavier font weight -->
       <h1 style="text-align: center; margin: auto; font-size: 1.8em; padding-top: 1em;">Vivian Hafener</h1>
     </a>
     <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
+    <ul class="nav nav-pills flex-column mb-auto" id="mainNav">
       <li class="nav-item">
-        <a href="#home" class="nav-link active" aria-current="page">
+        <a href="#home" class="nav-link text-white" aria-current="page">
           <img class="bi me-2" width="16" height="16" src="assets/svg/home.svg" style="filter: invert(100%);"/>
           Home
         </a>
@@ -73,6 +78,7 @@
 <div id="home"class= "main-div"style="margin-right: 0px; background: url(assets/media/katahdin.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center top; color: #fff;" >
   <div class="container" height="">
     <div id="nameplate" style="background:radial-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0) 50%);">
+            <!-- ! This should probably have a slightly heavier font weight -->
       <h1 style="font-size: 5em; color: rgba(0, 0, 0, .85); font-weight: 100; kerning: 1em; text-align: center; margin: auto;">Vivian Hafener</h1>
       <p class="lead" id="headline">Front end &#9679; Full Stack &#9679; DevOps</p>
       <img src="assets/svg/down.svg" width="96px" height="96px" style="color: rgba(0, 0, 0, .85);"/>
@@ -81,7 +87,7 @@
 </div>
 
 <div class="container">
-    
+  
   <main style="margin-right: 0px; ">
 
     <hr class="featurette-divider">
@@ -143,6 +149,7 @@
 
 </main>
   </div>
+</body>
 
   
 <div class="container">
@@ -166,12 +173,8 @@ window.onscroll = function() {
 }
 </script> -->
 
-<script>
-  $('body').scrollspy({
-  target: '#myNavbar',
-  // ! This offset is supposed to be the height of a horizontal navbar, I'll have to change this around for mine
-  offset: 50
-  });
+
+
 </script>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
