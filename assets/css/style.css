@@ -23,6 +23,12 @@ html::-webkit-scrollbar {
   transform: translate(-50%, -50%);
 }
 
+#headline {
+  font-weight: 600; 
+  color: rgba(0, 0, 0, .85); 
+  font-size: 1.5em;
+}
+
 #nameplate {
   padding: 3rem 1.5rem;
   text-align: center;
@@ -42,6 +48,7 @@ html {
 
 #home {
   margin-left: 280px;
+  height: 100vh;
 }
 
 main {
@@ -76,6 +83,10 @@ footer {
   }
 }
 
+#iconset {
+  display: flex;
+  justify-content: space-around;
+}
 
 nav {
   position: fixed;
@@ -190,6 +201,7 @@ html {
   line-height: 1;
   /* rtl:remove */
   letter-spacing: -.05rem;
+  margin-top: 0em;
 }
 
 
@@ -228,7 +240,17 @@ html {
   footer {
     margin-left: 0px;
   }
+  .featurette-divider {
+    margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+  }
 
+}
+
+/* ! I DON'T KNOW WHY THIS ISNT WORKING LMAO */
+@media screen and (max-width: 842) {
+  #headline {
+    color: rgba(255, 255, 255, 1); 
+  }
 }
 
 @media screen and (max-width:992px) {

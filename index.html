@@ -77,10 +77,10 @@
 
 <div id="home"class= "main-div"style="margin-right: 0px; background: url(assets/media/katahdin.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center top; color: #fff;" >
   <div class="container" height="">
-    <div id="nameplate">
+    <div id="nameplate" style="background:radial-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0) 50%);">
       <!-- ! ACTUALLY CENTER THIS -->
       <h1 style="font-size: 5em; color: rgba(0, 0, 0, .85); font-weight: 100; kerning: 1em; text-align: center; margin: auto;">Vivian Hafener</h1>
-      <p class="lead" style="font-weight: 600; color: rgba(0, 0, 0, .85); font-size: 1.5em;">Front end &#9679; Full Stack &#9679; DevOps</p>
+      <p class="lead" id="headline">Front end &#9679; Full Stack &#9679; DevOps</p>
       <img src="assets/svg/down.svg" width="96px" height="96px" style="color: rgba(0, 0, 0, .85);"/>
     </div> 
   </div>
@@ -141,27 +141,10 @@
     <div id="contact">
       <div class="text-centered" style="text-align: center;">
         <h2 class="featurette-heading" style="padding-top: 0.5em; padding-bottom: 0.5em; margin-top: 0em;">Contact me</h2>
-        <div class="container" style="display: flex;">
-          <div class="card border-0" style="width: 25%;">
-            <img class="bi me-2" width="48" height="48" src="assets/svg/nice_email.svg" style="align-self: center;"/>
-            <p class="lead" style="text-align: center;">Email: </p>    
-            <a href="mailto:vhafener@outlook.com"><p class="lead" style="text-align: center;">vhafener@outlook.com</p></a>
-          </div>
-          <div class="card border-0" style="width: 25%;">
-            <img class="bi me-2" width="48" height="48" src="assets/svg/discord.svg" style="align-self: center;"/>
-            <p class="lead" style="text-align: center;">Discord: </p>   
-            <code class="lead" style="text-align: center;"><span style="background-color: rgba(0, 0, 0, .1);">vivitec#3658</span></code>
-          </div>
-          <div class="card border-0" style="width: 25%;">
-            <img class="bi me-2" width="48" height="48" src="assets/svg/linkedin.svg" style="align-self: center;"/>
-            <p class="lead" style="text-align: center;">Linkedin: </p>  
-            <a href="https://www.linkedin.com/in/vivian-hafener-4b7399228" target="blank"><img class="bi me-2" width="96" src="assets/svg/follow-us-on-linkedin.svg" style="align-self: center;"/></a>
-          </div>
-          <div class="card border-0" style="width: 25%;">
-            <img class="bi me-2" width="48" height="48" src="assets/svg/github.svg" style="align-self: center;"/>
-            <p class="lead" style="text-align: center;">GitHub: </p> 
-            <a href="https://github.com/viv-codes"><p class="lead" style="text-align: center;">viv-codes</p></a> 
-          </div>
+        <div class="container" id="iconset">
+          <a href="mailto:vhafener@outlook.com"><img class="bi me-2" width="96" height="96" src="assets/svg/nice_email.svg" style="align-self: center;"/></a>
+          <a href="https://www.linkedin.com/in/vivian-hafener-4b7399228"><img class="bi me-2" width="96" height="96" src="assets/svg/linkedin.svg" style="align-self: center;"/></a>
+          <a href="https://github.com/viv-codes"><img class="bi me-2" width="96" height="96" src="assets/svg/github.svg" style="align-self: center;"/></a>
         </div>
 
       </div>      
@@ -172,15 +155,9 @@
 
   
 <div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <span class="text-muted">&copy; Vivian Hafener</span>
-    </div>
-
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3" style="padding: 15px;"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-      <li class="ms-3" style="padding: 15px;"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-    </ul>
+  <footer class="d-flex py-3 my-4 border-top" style="justify-content: center; flex-direction: column; align-items: center;">
+      <span class="text-muted" style="flex-basis: 100%;">&copy; Vivian Hafener 2021</span>
+      <span class="text-muted" style="flex-basis: 100%;">Icons from Iconscout</span>
   </footer>
 </div>
 
