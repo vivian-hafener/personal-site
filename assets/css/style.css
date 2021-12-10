@@ -29,6 +29,10 @@ html::-webkit-scrollbar {
   font-size: 1.5em;
 }
 
+.headline-alt {
+  font-weight: 100;
+}
+
 #nameplate {
   padding: 3rem 1.5rem;
   text-align: center;
@@ -37,6 +41,7 @@ html::-webkit-scrollbar {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+
 }
 
 
@@ -248,9 +253,16 @@ html {
 }
 
 /* ! I DON'T KNOW WHY THIS ISNT WORKING LMAO */
-@media screen and (max-width: 842) {
+@media screen and (max-width: 842px) {
   #headline {
     color: rgba(255, 255, 255, 1); 
+  }
+  .headline-alt {
+    filter: invert(100%);
+    font-weight: 600;
+  }
+  #nameplate {
+    background: rgba(0, 0, 0, .85)
   }
 }
 
