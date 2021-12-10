@@ -23,6 +23,16 @@ html::-webkit-scrollbar {
   transform: translate(-50%, -50%);
 }
 
+#nameplate {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 
 /* Hide scrollbar for IE, Edge and Firefox */
 html {
@@ -30,10 +40,18 @@ html {
   scrollbar-width: none;  /* Firefox */
 }
 
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
+#home {
+  margin-left: 280px;
 }
+
+main {
+  margin-left: 280px;
+}
+
+footer {
+  margin-left: 280px;
+}
+
 
 .b-example-divider {
   height: 3rem;
@@ -195,4 +213,24 @@ html {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+@media screen and (max-width:600px) {
+  nav {
+    display: none;
+  }
+  #home {
+    margin-left: 0px;
+  }
+  main {
+    margin-left: 0px;
+  }
+  footer {
+    margin-left: 0px;
+  }
+
+}
+
+@media screen and (max-width:992px) {
+
 }
