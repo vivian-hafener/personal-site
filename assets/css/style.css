@@ -253,6 +253,8 @@ html {
 }
 
 /* ! I DON'T KNOW WHY THIS ISNT WORKING LMAO */
+
+/* Change this somehow on mobile */
 @media screen and (max-width: 842px) {
   #headline {
     color: rgba(255, 255, 255, 1); 
