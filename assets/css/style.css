@@ -256,13 +256,13 @@ html {
 
 /* Change this somehow on mobile */
 @media screen and (max-width: 842px) {
-  #headline {
+  /* #headline {
     color: rgba(255, 255, 255, 1); 
-  }
-  .headline-alt {
+  } */
+  /* .headline-alt {
     filter: invert(100%);
     font-weight: 600;
-  }
+  } */
   #nameplate {
     background: rgba(0, 0, 0, .85)
   }
