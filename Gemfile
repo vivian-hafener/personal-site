@@ -9,7 +9,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.4"
+gem "jekyll"
 
 # Plugins go here
 group :jekyll_plugins do
@@ -17,7 +17,9 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
 end
 
+# The below line is a breakfix
+gem "kramdown-parser-gfm"
+gem "bootstrap"
+gem "bootstrap-sass"
 
-gem "bootstrap", "~> 5.1"
-
-gem "bootstrap-sass", "~> 3.4"
+gem "webrick", "~> 1.7"
