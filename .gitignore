@@ -1,0 +1,2 @@
+# Not syncing this prevents problems by forcing you to rebuild each time, which resolves dep issues on different systems
+Gemfile.lock
