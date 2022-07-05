@@ -1,6 +1,6 @@
 # personal-site
 
-My personal site, written using HTML & CSS, Ruby, and Jekyll
+My personal site, written using HTML & CSS, Ruby, and Jekyll. GitHub project cards generated using: https://github.com/lepture/github-cards
 
 ## Workflow
 
