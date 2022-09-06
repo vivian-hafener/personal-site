@@ -1,0 +1,35 @@
+html {
+    background-color: #F2F2F2;
+}
+
+body {
+    font-family: Atkinson Hyperlegible,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+.pronoun {
+    color: #DB7988;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    margin-top: auto;
+}
+.container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.titlebox {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+h1 {
+    color: #3B2C5C;
+    font-weight: 900;
+    font-size: 3em;
+    margin-bottom: 0em;
+}
