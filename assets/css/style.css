@@ -3,7 +3,9 @@ html {
 }
 
 body {
-    font-family: Atkinson Hyperlegible,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    
+    margin-left: 1em;
+    margin-right: 1em;
 }
 .pronoun {
     color: #DB7988;
@@ -17,6 +19,11 @@ body {
     align-items: center;
     justify-content: center;
 }
+.tagline {
+    color: #405899;
+    margin-top: 0.5em;
+
+}
 .titlebox {
     display: flex;
     align-items: left;
@@ -24,12 +31,55 @@ body {
     flex-wrap: wrap;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p, a , li, html {
+
+    font-family: Atkinson Hyperlegible,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
     font-weight: 400;
 }
 h1 {
     color: #3B2C5C;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 3.5em;
     margin-bottom: 0em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 2.3em;
+    font-weight: 800;
+    color: #3b2C5C;
+    border-bottom: 4px solid #DB7988;
+    width: 7em; 
+}
+p, li {
+    font-size: 1.3em;
+}
+hr {
+    color: #3B2C5C;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.links {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.link {
+    margin-right: 1em;
+    border-bottom: 3px solid #DB7988;
+}
+.link-text {
+    color: #BA65A6;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.link-text:hover {
+    color: #405899;
+}
+.tinyimg {
+    height:31px;
+    width:88px;
+    background-color: #3B2C5C;
 }
