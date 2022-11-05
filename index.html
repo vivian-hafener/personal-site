@@ -8,7 +8,7 @@
     <title>Vivian Hafener</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/starter-template/">
-
+    <script src="assets/js/slideshow.js"></script>
     
 
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 
 </head>
 
-<body   data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+<body onload="runit()"  data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
 <nav style="width: 280px;" id="navbar">
   <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px; height: 100%;">
     <img width="248px" height="248px" src="assets/media/vivi.jpg" style="border-radius: 50%;">
@@ -75,13 +75,13 @@
 
 
 
-<div id="home"class= "main-div"style="margin-right: 0px; background: url(assets/media/katahdin.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center top; color: #fff;" >
+<div id="home"class= "main-div"style="margin-right: 0px; background: url(assets/media/katahdin.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center top; color: #fff;" alt="A slideshow of landscape photographs. For more detailed alt text, the photos page has text for each picture.">
   <div class="container" height="">
-    <div id="nameplate" style="background:radial-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0) 50%);">
+    <div id="nameplate" style="background:radial-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%);">
             <!-- ! This should probably have a slightly heavier font weight -->
-      <h1 class="headline-alt" style="font-size: 5em; color: rgba(0, 0, 0, .85); kerning: 1em; text-align: center; margin: auto;">Vivian Hafener</h1>
-      <p class="lead" id="headline">Platform Engineering &#9679; Linux Systems Administration &#9679; HPC  &#9679; DevOps</p>
-      <img class="headline-alt" src="assets/svg/down.svg" width="96px" height="96px" style="color: rgba(0, 0, 0, .85);"/>
+      <!-- <h1 class="headline-alt" style="font-size: 5em; color: rgba(0, 0, 0, .85); kerning: 1em; text-align: center; margin: auto;">Vivian Hafener</h1> -->
+      <!-- <p class="lead" id="headline">Platform Engineering &#9679; Linux Systems Administration &#9679; HPC  &#9679; DevOps</p> -->
+      <img class="headline-alt" src="assets/svg/down.svg" width="200px" height="200px" style="color: #f2f2f2;"/>
     </div> 
   </div>
 </div>
