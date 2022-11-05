@@ -14,6 +14,18 @@ html::-webkit-scrollbar {
   z-index: -1;
 }
 
+.codeHead {
+  font-size: larger; 
+  text-align: left; 
+  color: #906CB7;
+}
+.codeBody {
+  font-size: medium; 
+  text-align: left; 
+  color: darkslategrey;
+  line-height: 170%;
+}
+
 .center {
   margin: 0;
   position: absolute;
@@ -96,7 +108,7 @@ footer {
   justify-content: space-around;
 }
 
-nav {
+#navbar-desktop {
   position: fixed;
   height: 100%;
 
@@ -199,9 +211,9 @@ html {
 
 /* Featurettes
 ------------------------- */
-
+md-block { white-space: pre; font-family: monospace; }
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 2.5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -212,8 +224,9 @@ html {
   letter-spacing: -.05rem;
   margin-top: 0em;
 }
-
-
+#navbar-mobile {
+  display: none;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -237,8 +250,11 @@ html {
 }
 
 @media screen and (max-width:600px) {
-  nav {
+  #navbar-desktop {
     display: none;
+  }
+  #navbar-mobile {
+    display: flex;
   }
   #home {
     margin-left: 0px;
