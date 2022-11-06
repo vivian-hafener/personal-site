@@ -1,6 +1,10 @@
 html::-webkit-scrollbar {
   display: none;
 }
+.friends {
+  image-rendering: pixelated
+  }
+
 
 .blurred-img { opacity: 0;}
 .img-src {

@@ -1,4 +1,4 @@
-var imageArray = ["assets/media/katahdin.jpg","assets/media/lookout.jpg", "assets/media/lighthouse.jpg", "assets/media/radio.jpg", "assets/media/pemaquid.jpg", "assets/media/darkroad.jpg"]
+var imageArray = ["assets/media/katahdin.jpg","assets/media/lookout.jpg", "assets/media/lighthouse.jpg", "assets/media/radio.jpg", "assets/media/pemaquid.jpg", "assets/media/darkroad.jpg", "assets/media/milkyway.jpg"]
 
 var arraySize = imageArray.length;
 
