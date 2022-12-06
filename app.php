@@ -61,7 +61,7 @@ class Components
         echo '<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Im Vivian Hafener, a researcher, student, and photographer.">
     <meta name="author" content="Vivian Hafener">
     <title>Vivian Hafener</title>
     <script src="assets/js/slideshow.js"></script>
@@ -132,6 +132,21 @@ class Components
         <span class="text-muted" style="flex-basis: 100%;">Icons from Iconscout</span>
     </footer>
   </div>';
+    }
+    public function createPhotoPage($directoryName) {
+        echo '<div class="container">
+        <h2 style="text-align: center;">Photography</h2>
+        <p style="font-family: monospace">This is not a portfolio. I only photograph for fun. All images are licensed under the Creative Commons <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> license.</p>
+    </div>
+    <hr style="width: 80%;">
+    <h2 class="phototitle">'.$directoryName.'</h2>
+    <hr style="width: 80%;">';
+        $directory = "assets/media/".$directoryName;
+            $images = glob($directory . "/*.jpg");
+            foreach($images as $image)
+            {
+                echo '<img src="'.$image.'" style="width: 100%; margin-bottom: 1em;"alt="">';
+            }
     }
 }
 ?>

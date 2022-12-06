@@ -3,7 +3,7 @@
 <head>
     <?php include 'app.php';
         $components = new Components;
-        $components->createHead('Home');
+        $components->createHead('Vivian Hafener - Presentations');
     ?>
 </head>
 <body onload="runit(); cacheImageArray()">

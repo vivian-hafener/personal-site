@@ -3,7 +3,7 @@
 <head>
     <?php include 'app.php';
         $components = new Components;
-        $components->createHead('Home');
+        $components->createHead('Vivian Hafener');
     ?>
 </head>
 <body onload="runit(); cacheImageArray()">
@@ -39,7 +39,7 @@
     <code class="codeBody">
       I am a photographer. Photography enables me to share the beauty I see in the world with others. I primarily take pictures of landscapes, but also love taking photos of my friends. There's something really special to me about being able to give people nice photos of themselves.
     </code><br>
-    <code class="codeHead">[you @ vivi's site ~]$ <a href="photos.html">more ~/photography</a></code><br>
+    <code class="codeHead">[you @ vivi's site ~]$ <a href="photos.php">more ~/photography</a></code><br>
     <hr class="featurette-divider">
     <code class="codeHead">[you @ vivi's site ~]$ cat /dev/random</code><br>
     <code class="codeBody">

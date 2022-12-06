@@ -339,3 +339,7 @@ md-block { white-space: pre; font-family: monospace; }
   /* padding-left: 2em;
   padding-right: 2em; */
 }
+
+.phototitle {
+  text-align: center;
+}
