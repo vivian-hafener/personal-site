@@ -294,3 +294,48 @@ md-block { white-space: pre; font-family: monospace; }
 @media screen and (max-width:992px) {
 
 }
+
+.gallery {
+  background-color: black;
+}
+.album {
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  /* width: 99%; */
+} 
+
+.album_cover {  
+  background-size: 450px 300px;
+  width: 34%;
+  height:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.album_cover a {
+  width: 100%;
+  height: 100%;
+}
+/* .album_cover h3 {
+  display: none;
+} */
+.album_cover:hover {
+  opacity: 50%;
+}
+.album_text {
+  /* text-align: center; */
+  /* width: 100%; */
+  /* align-items: center; */
+  /* display: none; */
+  color: #f2f2f2;
+  font-size: 2.5em;
+}
+.gallery_title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* color: #f2f2f2; */
+  /* padding-left: 2em;
+  padding-right: 2em; */
+}
