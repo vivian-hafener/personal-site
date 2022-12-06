@@ -2,60 +2,6 @@
 class Components
 {
 
-
-    public function createPageComponent($size, $header, $content, $path, $img_path = null, $img_alt = null, $sub_tag = null)
-    {
-
-        switch ($size) {
-            case 'small':
-                echo '<div class="smallComponent" onclick="route(\'' . $path . '\')">
-            <div class="pageComponentContent">
-            <h2>' . $header . '</h2>
-                <p>' . $content . '</p>
-            </div></div>';
-                break;
-            case 'medium':
-                echo '<div class="mediumComponent" onclick="route(\'' . $path . '\')">
-            <div class="pageComponentContent">
-            <h2>' . $header . '</h2>
-                <p>' . $content . '</p>
-            </div>
-            <div class="pageComponentImage">
-                <img src="' . $img_path . '" alt="' . $img_alt . '">
-            </div></div>';
-                break;
-            case 'large':
-                echo '<div class="largeComponent">
-            <div class="pageComponentContent">
-            <h3>// ' . $sub_tag . ' //</h3>
-            <h2>' . $header . '</h2>
-                <p>' . $content . '</p>
-            <a href="' . $path . '">
-                <div class="button">
-                    <div><img src="images/mind.png" alt="play button" height="40" width="40"></div>
-                    <div>Start Learning Now</div>
-                </div>    
-            </a> 
-            </div>
-            <div class="pageComponentImage">
-                <img src="' . $img_path . '" alt="' . $img_alt . '">
-            </div> </div>';
-                break;
-            case 'mini':
-                echo '<div class="miniComponent" onclick="route(\'' . $path . '\')">
-                <div class="pageComponentContent">
-                <h2>' . $header . '</h2>
-                    <p>' . $content . '</p>
-               
-                </div>
-                 </div>';
-                break;
-            default:
-                # code...
-                break;
-        }
-    }
-
     public function createHead(string $title)
     {
         echo '<head>

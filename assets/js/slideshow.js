@@ -1,4 +1,4 @@
-var imageArray = ["assets/media/katahdin.jpg","assets/media/lookout.jpg", "assets/media/lighthouse.jpg", "assets/media/radio.jpg", "assets/media/pemaquid.jpg", "assets/media/darkroad.jpg", "assets/media/milkyway.jpg"]
+var imageArray = ["assets/media/Landscapes/katahdin.jpg","assets/media/Landscapes/lookout.jpg", "assets/media/Landscapes/lighthouse.jpg", "assets/media/Landscapes/radio.jpg", "assets/media/Landscapes/pemaquid.jpg", "assets/media/Landscapes/darkroad.jpg", "assets/media/Landscapes/milkyway.jpg"]
 
 var arraySize = imageArray.length;
 
@@ -10,11 +10,10 @@ var currentImage = 0;
 
 setInterval(runit, 5000);
 
-// FIXME Do an @media query for the lighthouse image
 function runit() {
     document.getElementById("home").style.backgroundImage="url(" + imageArray[currentImage] + ")";
     document.getElementById("home").style.backgroundSize="cover";
-    if (imageArray[currentImage] == "assets/media/radio.jpg") {
+    if (imageArray[currentImage] == "assets/media/Landscapes/radio.jpg") {
         document.getElementById("home").style.backgroundPosition="center bottom";
 
     }
