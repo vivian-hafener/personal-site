@@ -82,7 +82,7 @@ class Components
     public function createPhotoPage($directoryName) {
         echo '<div class="container">
         <h2 style="text-align: center;">Photography</h2>
-        <p style="font-family: monospace">This is not a portfolio. I only photograph for fun. All images are licensed under the Creative Commons <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> license.</p>
+        <p style="font-family: monospace">I only photograph for fun. All images are licensed under the Creative Commons <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> license.</p>
     </div>
     <hr style="width: 80%;">
     <h2 class="phototitle">'.$directoryName.'</h2>
@@ -93,6 +93,43 @@ class Components
             {
                 echo '<img src="'.$image.'" style="width: 100%; margin-bottom: 1em;"alt="">';
             }
+    }
+    public function createPhotoGallery() {
+        echo '<div class="container">
+        <h2 class="phototitle">Photography</h2>
+        <p style="font-family: monospace">I only photograph for fun. All images are licensed under the Creative Commons <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> license.</p>
+    </div>
+    <!-- <div class="divider"></div> -->
+    <hr style="width: 80%;">
+    <h2 class="phototitle">Portfolios</h2>
+    <hr style="width: 80%;">
+    <div class="gallery_title">
+      <h3>Landscapes</h3>
+      <h3>2022-2023</h3>
+      <h3>Self Portraits</h3>
+    </div>
+    <div class="gallery">
+      <div class="album">
+        <div class="album_cover" style="background: url(\'/assets/media/Landscapes/katahdin.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Landscapes"></a></div>
+        <div class="album_cover" style="background: url(\'/assets/media/Landscapes/darkroad.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=2022-2023"></a></div>
+        <div class="album_cover" style="background: url(\'/assets/media/Landscapes/dock.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Self Portraits"></a></div>
+      </div>
+    </div>
+    <hr style="width: 80%;">
+    <h2 class="phototitle">Places</h2>
+    <hr style="width: 80%;">
+    <div class="gallery_title">
+      <h3>Maine</h3>
+      <h3>Toronto</h3>
+      <h3>Boston</h3>
+    </div>
+    <div class="gallery">
+    <div class="album">
+    <div class="album_cover" style="background: url(\'/assets/media/Landscapes/katahdin.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Landscapes"></a></div>
+    <div class="album_cover" style="background: url(\'/assets/media/Landscapes/darkroad.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=2022-2023"></a></div>
+    <div class="album_cover" style="background: url(\'/assets/media/Landscapes/dock.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Self Portraits"></a></div>
+  </div>'
+    ;
     }
 }
 ?>

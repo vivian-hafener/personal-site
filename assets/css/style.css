@@ -306,7 +306,7 @@ md-block { white-space: pre; font-family: monospace; }
 } 
 
 .album_cover {  
-  background-size: 450px 300px;
+  background-size: 900px 600px;
   width: 34%;
   height:300px;
   display: flex;
