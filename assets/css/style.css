@@ -345,7 +345,7 @@ md-block { white-space: pre; font-family: monospace; }
 }
 
 .photo {
-  max-height: 100vh;
+  max-height: 90vh;
   width: 100%;
   object-fit: contain;
   display: block;

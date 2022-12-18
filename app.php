@@ -115,7 +115,15 @@ class Components
         <div class="album_cover" style="background: url(\'/assets/media/Landscapes/dock.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Self Portraits"></a></div>
       </div>
     </div>
-    <hr style="width: 80%;">
+    
+  </div>'
+    ;
+    }
+}
+?>
+
+<!-- Places gallery html -->
+<!-- <hr style="width: 80%;">
     <h2 class="phototitle">Places</h2>
     <hr style="width: 80%;">
     <div class="gallery_title">
@@ -127,10 +135,4 @@ class Components
     <div class="album">
     <div class="album_cover" style="background: url(\'/assets/media/Landscapes/katahdin.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Landscapes"></a></div>
     <div class="album_cover" style="background: url(\'/assets/media/Landscapes/darkroad.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=2022-2023"></a></div>
-    <div class="album_cover" style="background: url(\'/assets/media/Landscapes/dock.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Self Portraits"></a></div>
-  </div>'
-    ;
-    }
-}
-?>
-
+    <div class="album_cover" style="background: url(\'/assets/media/Landscapes/dock.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Self Portraits"></a></div> -->
