@@ -89,9 +89,14 @@ class Components
     <hr style="width: 80%;">';
         $directory = "assets/media/".$directoryName;
             $images = glob($directory . "/*.jpg");
+            $i = 0;
             foreach($images as $image)
             {
                 echo '<img class="photo" src="'.$image.'" style="width: 100%; margin-bottom: 1em;"alt="">';
+                $i++;
+            }
+            if ($i == 0) {
+                echo '<h3 style="text-align: center;">Coming soon!</h3>';
             }
     }
     public function createPhotoGallery() {
@@ -105,14 +110,14 @@ class Components
     <hr style="width: 80%;">
     <div class="gallery_title">
       <h3>Landscapes</h3>
-      <h3>2022-2023</h3>
-      <h3>Self Portraits</h3>
+      <h3>2022</h3>
+      <h3>Enchantment</h3>
     </div>
     <div class="gallery">
       <div class="album">
-        <div class="album_cover" style="background: url(\'/assets/media/Landscapes/katahdin.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Landscapes"></a></div>
-        <div class="album_cover" style="background: url(\'/assets/media/Landscapes/darkroad.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=2022-2023"></a></div>
-        <div class="album_cover" style="background: url(\'/assets/media/Landscapes/dock.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Self Portraits"></a></div>
+        <div class="album_cover" style="background: url(\'/assets/media/Landscapes/0.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Landscapes"></a></div>
+        <div class="album_cover" style="background: url(\'/assets/media/Landscapes/2022.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=2022"></a></div>
+        <div class="album_cover" style="background: url(\'/assets/media/Landscapes/placehold.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Enchantment"></a></div>
       </div>
     </div>
     
@@ -133,6 +138,6 @@ class Components
     </div>
     <div class="gallery">
     <div class="album">
-    <div class="album_cover" style="background: url(\'/assets/media/Landscapes/katahdin.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Landscapes"></a></div>
-    <div class="album_cover" style="background: url(\'/assets/media/Landscapes/darkroad.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=2022-2023"></a></div>
-    <div class="album_cover" style="background: url(\'/assets/media/Landscapes/dock.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Self Portraits"></a></div> -->
+    <div class="album_cover" style="background: url(\'/assets/media/Landscapes/1.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Landscapes"></a></div>
+    <div class="album_cover" style="background: url(\'/assets/media/Landscapes/2.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=2022"></a></div>
+    <div class="album_cover" style="background: url(\'/assets/media/Landscapes/3.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Self Portraits"></a></div> -->
