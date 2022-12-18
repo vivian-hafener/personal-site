@@ -116,7 +116,7 @@ class Components
     <div class="gallery">
       <div class="album">
         <div class="album_cover" style="background: url(\'/assets/media/Landscapes/0.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Landscapes"></a></div>
-        <div class="album_cover" style="background: url(\'/assets/media/Landscapes/2022.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=2022"></a></div>
+        <div class="album_cover" style="background: url(\'/assets/media/2022/0005.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=2022"></a></div>
         <div class="album_cover" style="background: url(\'/assets/media/Landscapes/placehold.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Enchantment"></a></div>
       </div>
     </div>
