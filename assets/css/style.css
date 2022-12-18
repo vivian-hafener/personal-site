@@ -343,3 +343,10 @@ md-block { white-space: pre; font-family: monospace; }
 .phototitle {
   text-align: center;
 }
+
+.photo {
+  max-height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+}

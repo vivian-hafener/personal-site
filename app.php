@@ -91,7 +91,7 @@ class Components
             $images = glob($directory . "/*.jpg");
             foreach($images as $image)
             {
-                echo '<img src="'.$image.'" style="width: 100%; margin-bottom: 1em;"alt="">';
+                echo '<img class="photo" src="'.$image.'" style="width: 100%; margin-bottom: 1em;"alt="">';
             }
     }
     public function createPhotoGallery() {
