@@ -82,14 +82,13 @@ class Components
     public function createPhotoPage($directoryName) {
 	$statement = file_get_contents('assets/media/'.$directoryName.'/statement.txt');
         echo '<div class="container">
-        <h2 style="text-align: center;">Photography</h2>
-        <p style="font-family: monospace">I only photograph for fun. All images are licensed under the Creative Commons <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> license.</p>
+        <p style="font-family: monospace">I only photograph for fun. All images copyright Vivian Hafener.</p>
     </div>
     <hr style="width: 80%;">
     <h2 class="phototitle">'.$directoryName.'</h2>';
     if ($statement != NULL) {
-	    echo '<hr style="width: 80%;"><h3 class="phototitle">Statement:</h3>
-	<p class="statement">'.$statement.'</p>';
+	    echo '<hr style="width: 80%;"><h4 class="phototitle">Statement:</h4>
+	<p class="statement" style="text-align: center; width: 80%; margin: auto;">'.$statement.'</p>';
     }
     echo '<hr style="width: 80%;">';
         $directory = "assets/media/".$directoryName;
@@ -99,7 +98,13 @@ class Components
             {
                 echo '<img class="photo" src="'.$image.'" style="width: 100%; margin-bottom: 1em;"alt="">';
                 $i++;
-            }
+	    }
+	    $pngs = glob($directory . "/*.png");
+	    foreach($pngs as $png) 
+	    {
+		    echo '<img class="photo" src="'.$png.'"style="width: 100%; margin-bottom: 1em;"alt="">';
+		    $i++;
+	    }
             if ($i == 0) {
                 echo '<h3 style="text-align: center;">Coming soon!</h3>';
             }
@@ -107,22 +112,20 @@ class Components
     public function createPhotoGallery() {
         echo '<div class="container">
         <h2 class="phototitle">Photography</h2>
-        <p style="font-family: monospace">I only photograph for fun. All images are licensed under the Creative Commons <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> license.</p>
+        <p style="font-family: monospace">I only photograph for fun. All images copyright Vivian Hafener.</p>
     </div>
     <!-- <div class="divider"></div> -->
     <hr style="width: 80%;">
-    <h2 class="phototitle">Portfolios</h2>
+    <h2 class="phototitle">Bodies of work</h2>
     <hr style="width: 80%;">
     <div class="gallery_title">
-      <h3>Breathe</h3>
-      <h3>There</h3>
-      <h3>Enchantment</h3>
+      <h3>Breathe (2020-2021)</h3>
+      <h3>Something of a home (2023)</h3>
     </div>
     <div class="gallery">
       <div class="album">
         <div class="album_cover" style="background: url(\'/assets/media/Breathe/Hafener-09.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Breathe"></a></div>
-        <div class="album_cover" style="background: url(\'/assets/media/There/0.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=There"></a></div>
-        <div class="album_cover" style="background: url(\'/assets/media/Enchantment/0001.jpg\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Enchantment"></a></div>
+        <div class="album_cover" style="background: url(\'/assets/media/Something/0001.png\') 50% 50% no-repeat; background-size:900px 600px;"><a href="photos.php?album=Something"></a></div>
       </div>
     </div>
     
