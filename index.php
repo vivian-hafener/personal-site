@@ -55,7 +55,6 @@
     <a class="friends" href="https://mstrodl.com/"><img src="assets/8831/mary.png"></a>
     <a class="friends" href="https://breq.dev"><img src="assets/8831/breq.png"></a>
     <h4 style="display: inline;"><span class="badge badge-pill badge-info"><a style=" color: #f2f2f2;"href="https://philo.gay/">philo</a></span></h4>
-    <h4 style="display: inline;"><span class="badge badge-pill badge-info"><a style=" color: #f2f2f2;"href="https://galenguyer.com/">galen</a></span></h4>
 
 </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
