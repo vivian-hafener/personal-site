@@ -32,7 +32,7 @@
 
     <code class="codeHead">[you @ vivi's site ~]$ ls ~/science</code><br>
     <code class="codeBody">
-      I research ways to increase the efficiency of HPC clusters and supercomputers for the Los Alamos National Laboratory. I am primarily focused on methods of visualizing the HPC queue, to enable better decision-making and increase heuristic understanding of the concepts surrounding HPC scheduling.<br>
+      I research ways to increase the efficiency of HPC clusters and supercomputers. I am primarily focused on methods of visualizing the HPC queue, to enable better decision-making and increase heuristic understanding of the concepts surrounding HPC scheduling.<br>
     </code><br>
     <hr class="featurette-divider">
     <code class="codeHead">[you @ vivi's site ~]$ ls ~/photography</code><br>
