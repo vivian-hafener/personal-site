@@ -24,13 +24,13 @@
     <code class="codeHead">[you @ vivi's site ~]$ whoami</code><br>
     <code class="codeBody">
       Hey! I'm Vivian.<br>
-      I enjoy learning by playing with and studying new things.<br>
+      I enjoy learning by playing, and studying new things.<br>
     </code><br>
     <hr class="featurette-divider">
 
     <code class="codeHead">[you @ vivi's site ~]$ ls ~/work</code><br>
     <code class="codeBody">
-      I work for Los Alamos National Laboratory in the High Performance Computing Division, Workload Management Team. This means I study and implement ways to increase the efficiency of HPC clusters and supercomputers. I am primarily focused on methods of visualizing the HPC queue, to enable better decision-making and increase heuristic understanding of the concepts surrounding HPC scheduling.<br>
+      I work for Los Alamos National Laboratory in the High Performance Computing Division, Workload Management Team. I study and implement ways to increase the efficiency of supercomputers and High Performance Compute clusters. One of us of my passions within this work is improving methods of visualizing the HPC queue, to enable better decision-making and increase heuristic understanding of the concepts surrounding HPC scheduling.<br>
     </code><br>
     <hr class="featurette-divider">
     <code class="codeHead">[you @ vivi's site ~]$ ls ~/photography</code><br>
@@ -41,7 +41,7 @@
     <hr class="featurette-divider">
     <code class="codeHead">[you @ vivi's site ~]$ cat /dev/random</code><br>
     <code class="codeBody">
-      I also do other things. I'm involved with New Mexico Search and Rescue through the Los Alamos Auxillary Fire Brigade. I also love reading.</a>.
+      I also do other things. I'm involved with New Mexico Search and Rescue through the Los Alamos Auxillary Fire Brigade. I also enjoy reading.
     </code><br>
     <hr class="featurette-divider">
     <code class="codeHead">[you @ vivi's site ~]$ ls ~/friends</code><br>
@@ -52,8 +52,10 @@
     <a class="friends" href="https://adryd.com/"><img src="assets/8831/adryd.png"></a>
     <a class="friends" href="https://mstrodl.com/"><img src="assets/8831/mary.png"></a>
     <a class="friends" href="https://breq.dev"><img src="assets/8831/breq.png"></a>
-    <h4 style="display: inline;"><span class="badge badge-pill badge-info"><a style=" color: #f2f2f2;"href="https://philo.gay/">philo</a></span></h4>
-
+    <a class="friends" href="https://avasilver.dev/"><img src="assets/8831/ava.png"></a>
+    <a class="friends" href="https://miakizz.quest/"><img src="assets/8831/mia.png"></a>
+    <a class="friends" href="https://philo.gay/"><img src="assets/8831/philo.png"></a>
+    <a class="friends" href="https://tris.fyi/"><img src="assets/8831/tris.png"></a>
 </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
