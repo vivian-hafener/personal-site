@@ -23,27 +23,25 @@
     <hr class="featurette-divider">
     <code class="codeHead">[you @ vivi's site ~]$ whoami</code><br>
     <code class="codeBody">
-      Hey! I'm vivian.<br>
-      I love learning by tinkering and trying new things.<br>
-      I do science, computers, ham radio, photography, and whatever else interests me at the moment.<br>
-      I also hike, longboard, climb, and read.
+      Hey! I'm Vivian.<br>
+      I enjoy learning by playing with and studying new things.<br>
     </code><br>
     <hr class="featurette-divider">
 
-    <code class="codeHead">[you @ vivi's site ~]$ ls ~/science</code><br>
+    <code class="codeHead">[you @ vivi's site ~]$ ls ~/work</code><br>
     <code class="codeBody">
-      I research ways to increase the efficiency of HPC clusters and supercomputers for the Los Alamos National Laboratory. I am primarily focused on methods of visualizing the HPC queue, to enable better decision-making and increase heuristic understanding of the concepts surrounding HPC scheduling.<br>
+      I work for Los Alamos National Laboratory in the High Performance Computing Division, Workload Management Team. This means I study and implement ways to increase the efficiency of HPC clusters and supercomputers. I am primarily focused on methods of visualizing the HPC queue, to enable better decision-making and increase heuristic understanding of the concepts surrounding HPC scheduling.<br>
     </code><br>
     <hr class="featurette-divider">
     <code class="codeHead">[you @ vivi's site ~]$ ls ~/photography</code><br>
     <code class="codeBody">
-      I am a photographer. Photography enables me to share the beauty I see in the world with others. I primarily take pictures of landscapes, but also love taking photos of my friends. There's something really special to me about being able to give people nice photos of themselves.
+      I am sometimes a photographer. Photography enables me to share the beauty I see in the world with others. 
     </code><br>
     <code class="codeHead">[you @ vivi's site ~]$ <a href="photos.php">more ~/photography</a></code><br>
     <hr class="featurette-divider">
     <code class="codeHead">[you @ vivi's site ~]$ cat /dev/random</code><br>
     <code class="codeBody">
-      I also do other stuff. I'm a technican-class ham radio operator. I climb and boulder. Sometimes I bike, hike, or longboard. I also love reading. I maintain a reading list <a href="reading.html">here</a>.
+      I also do other things. I'm involved with New Mexico Search and Rescue through the Los Alamos Auxillary Fire Brigade. I also love reading.</a>.
     </code><br>
     <hr class="featurette-divider">
     <code class="codeHead">[you @ vivi's site ~]$ ls ~/friends</code><br>

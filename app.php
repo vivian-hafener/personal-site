@@ -73,7 +73,7 @@ class Components
     {
         echo '<div class="container">
     <footer class="d-flex py-3 my-4 border-top" style="justify-content: center; flex-direction: column; align-items: center;">
-        <span class="text-muted" style="flex-basis: 100%;">&copy; Vivian Hafener 2022</span>
+        <span class="text-muted" style="flex-basis: 100%;">&copy; Vivian Hafener 2025</span>
         <span class="text-muted" style="flex-basis: 100%;"><a href="https://github.com/viv-codes/personal-site/tree/rewrite3">Source code</a></span>
         <span class="text-muted" style="flex-basis: 100%;">Icons from Iconscout</span>
     </footer>
